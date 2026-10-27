@@ -1,0 +1,12 @@
+
+{
+  "name": "LibreTV 试播精选",
+  "version": 2,
+  "sources": [],
+  "liveSources": [
+    {
+      "name": "试播精选",
+      "url": "https://cdn.jsdelivr.net/gh/bailiming86/libre@main/pilot.m3u"
+    }
+  ]
+}
