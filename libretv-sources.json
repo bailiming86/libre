@@ -1,0 +1,48 @@
+{
+  "name": "LibreTV 兼容源（筛选自 TVBox official.json）",
+  "version": 2,
+  "sources": [
+    {
+      "name": "虎牙采集ok线路1",
+      "url": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+      "detail": "",
+      "isAdult": false
+    },
+    {
+      "name": "360采集荐片",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "detail": "",
+      "isAdult": false
+    },
+    {
+      "name": "百度采集ok线路1",
+      "url": "https://api.apibdzy.com/api.php/provide/vod",
+      "detail": "",
+      "isAdult": false
+    },
+    {
+      "name": "暴風采集荐片",
+      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "detail": "",
+      "isAdult": false
+    },
+    {
+      "name": "非凡资源1号VIP源",
+      "url": "http://ffzy5.tv/api.php/provide/vod",
+      "detail": "",
+      "isAdult": false
+    },
+    {
+      "name": "量子资源ok线路1",
+      "url": "https://lzizy1.com/api.php/provide/vod",
+      "detail": "",
+      "isAdult": false
+    },
+    {
+      "name": "火狐采集ok线路1",
+      "url": "https://hhzyapi.com/api.php/provide/vod",
+      "detail": "",
+      "isAdult": false
+    }
+  ]
+}
