@@ -1,0 +1,32 @@
+{
+    "name": "LibreTV 纯直播订阅",
+    "version": 2,
+    "sources": [],
+    "liveSources": [
+        {
+            "name": "📺 CCTV央视全系列",
+            "url": "https://live.fanmingming.com/tv/m3u/cctv.m3u",
+            "epg": "https://live.fanmingming.com/e.xml"
+        },
+        {
+            "name": "📡 全国上星卫视",
+            "url": "https://live.fanmingming.com/tv/m3u/ws.m3u",
+            "epg": "https://live.fanmingming.com/e.xml"
+        },
+        {
+            "name": "🇭🇰******** 港台澳频道",
+            "url": "https://epg.pw/test_channels_hong_kong.m3u",
+            "epg": "https://live.fanmingming.com/e.xml"
+        },
+        {
+            "name": "🇺🇸 美国英文台（cdn加速）",
+            "url": "https://cdn.jsdelivr.net/gh/iptv-org/iptv/countries/us.m3u",
+            "epg": "https://live.fanmingming.com/e.xml"
+        },
+        {
+            "name": "🏙️ 国内省市地方台",
+            "url": "https://live.fanmingming.com/tv/m3u/local.m3u",
+            "epg": "https://live.fanmingming.com/e.xml"
+        }
+    ]
+}
