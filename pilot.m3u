@@ -1,0 +1,51 @@
+#EXTM3U
+# 试播精选清单（pilot.m3u）生成于 2026-10-27 09:48:02 (GMT+8)
+# 环境：Mac 本机(darwin)，仅 Mac 测试，未连 NAS
+# 每条频道上方 # LiveTest 为本机深测结论（PASS/FAIL），仅供参考，不代表 LibreTV 实际播放结果。
+# 全部频道均未经群晖 NAS 实测，请勿据此判定最终可用性。
+
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",Fox News Channel
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+# LiveTest: FAIL | Mac 深测未通过：master HTTP 404（URL 疑似过期/轮换，需在 NAS 复核） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",CNN International
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",ESPN HD
+http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",National Geographic
+http://198.58.104.90:8989/natgeo/index.m3u8
+# LiveTest: FAIL | Mac 深测未通过：master HTTP 400（服务器拒绝请求，可能需鉴权/特定头，需在 NAS 复核） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",NBC News NOW
+https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99
+# LiveTest: FAIL | Mac 深测未通过：master HTTP 404（URL 疑似过期/轮换，需在 NAS 复核） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",PBS Kids
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=C C 美国主流电视台
+#EXTINF:-1 group-title="C 美国主流电视台",Bloomberg TV
+http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=B B 港台补充
+#EXTINF:-1 group-title="B 港台补充",TVBS Asia
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=B B 港台补充
+#EXTINF:-1 group-title="B 港台补充",Jade
+http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=B B 港台补充
+#EXTINF:-1 group-title="B 港台补充",PTS 3
+http://111.59.139.85:11888/tsfile/live/1222_1.m3u8?key=txiptv
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=B B 港台补充
+#EXTINF:-1 group-title="B 港台补充",Taiwan Indigenous TV
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=D D 国内地方台
+#EXTINF:-1 group-title="D 国内地方台",浙江钱江 (Zhejiang)
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=D D 国内地方台
+#EXTINF:-1 group-title="D 国内地方台",QTV-1 (青岛)
+http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
+# LiveTest: FAIL | Mac 深测未通过：master/variant HTTP 200，但首个媒体分片过小(196B)或非真实分片，疑似广告/占位 | group=D D 国内地方台
+#EXTINF:-1 group-title="D 国内地方台",Anhui TV (安徽)
+https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
+# LiveTest: PASS | Mac 深测通过：master+variant+segment 均 HTTP 200，首个媒体分片为真实 TS（>500B） | group=D D 国内地方台
+#EXTINF:-1 group-title="D 国内地方台",江津新闻综合
+http://222.179.155.21:1935/ch1.m3u8
