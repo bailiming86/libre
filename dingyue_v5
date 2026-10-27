@@ -1,0 +1,22 @@
+{
+    "name": "LibreTV 纯直播订阅｜IPv4优化版",
+    "version": 2,
+    "sources": [],
+    "liveSources": [
+        {
+            "name": "📺 国内综合｜央视+卫视+地方台（IPv4）",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+            "epg": "http://epg.51zmt.top:8000/e.xml"
+        },
+        {
+            "name": "🇭🇰🇹🇼 港台澳频道（已验证可用）",
+            "url": "https://epg.pw/test_channels_hong_kong.m3u",
+            "epg": "http://epg.51zmt.top:8000/e.xml"
+        },
+        {
+            "name": "🇺🇸 美国英文台（精简加速）",
+            "url": "https://cdn.jsdelivr.net/gh/iptv-org/iptv@master/streams/countries/us.m3u",
+            "epg": "http://epg.51zmt.top:8000/e.xml"
+        }
+    ]
+}
