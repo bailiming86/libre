@@ -1,32 +1,41 @@
 {
-    "name": "LibreTV 纯直播订阅",
-    "version": 2,
-    "sources": [],
-    "liveSources": [
-        {
-            "name": "📺 CCTV央视全系列",
-            "url": "https://live.fanmingming.com/tv/m3u/cctv.m3u",
-            "epg": "https://live.fanmingming.com/e.xml"
-        },
-        {
-            "name": "📡 全国上星卫视",
-            "url": "https://live.fanmingming.com/tv/m3u/ws.m3u",
-            "epg": "https://live.fanmingming.com/e.xml"
-        },
-        {
-            "name": "🇭🇰******** 港台澳频道",
-            "url": "https://epg.pw/test_channels_hong_kong.m3u",
-            "epg": "https://live.fanmingming.com/e.xml"
-        },
-        {
-            "name": "🇺🇸 美国英文台（cdn加速）",
-            "url": "https://cdn.jsdelivr.net/gh/iptv-org/iptv/countries/us.m3u",
-            "epg": "https://live.fanmingming.com/e.xml"
-        },
-        {
-            "name": "🏙️ 国内省市地方台",
-            "url": "https://live.fanmingming.com/tv/m3u/local.m3u",
-            "epg": "https://live.fanmingming.com/e.xml"
-        }
-    ]
+"name": "LibreTV 完整直播频道库",
+"version": 2,
+"sources": [],
+"liveSources": [
+{
+"name": "01 央视",
+"url": "https://gh-proxy.com/https://raw.githubusercontent.com/Hawaiine/Oasisic-IPTV/main/output/live_cctv.m3u",
+"epg": "https://live.fanmingming.com/e.xml"
+},
+{
+"name": "02 全国卫视",
+"url": "https://gh-proxy.com/https://raw.githubusercontent.com/Hawaiine/Oasisic-IPTV/main/output/live_weishi.m3u",
+"epg": "https://live.fanmingming.com/e.xml"
+},
+{
+"name": "03 全国地方台",
+"url": "https://gh-proxy.com/https://raw.githubusercontent.com/Hawaiine/Oasisic-IPTV/main/output/live_local.m3u",
+"epg": "https://live.fanmingming.com/e.xml"
+},
+{
+"name": "04 港澳台",
+"url": "https://gh-proxy.com/https://raw.githubusercontent.com/Hawaiine/Oasisic-IPTV/main/output/live_gangtai.m3u",
+"epg": "https://live.fanmingming.com/e.xml"
+},
+{
+"name": "05 综合精选频道",
+"url": "https://gh-proxy.com/https://raw.githubusercontent.com/Hawaiine/Oasisic-IPTV/main/output/live.m3u",
+"epg": "https://live.fanmingming.com/e.xml"
+},
+{
+"name": "06 备用线路",
+"url": "https://gh-proxy.com/https://raw.githubusercontent.com/Hawaiine/Oasisic-IPTV/main/output/live_backup.m3u",
+"epg": "https://live.fanmingming.com/e.xml"
+},
+{
+"name": "07 美国频道（公开清单）",
+"url": "https://gh-proxy.com/https://iptv-org.github.io/iptv/countries/us.m3u"
+}
+]
 }
