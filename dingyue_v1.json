@@ -1,12 +1,42 @@
-
 {
-  "name": "LibreTV 试播精选",
+  "name": "LibreTV 完整直播频道库（CDN加速）",
   "version": 2,
   "sources": [],
   "liveSources": [
     {
-      "name": "试播精选",
-      "url": "https://cdn.jsdelivr.net/gh/bailiming86/libre@main/pilot.m3u"
+      "name": "01 央视",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live_cctv.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "02 全国卫视",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live_weishi.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "03 全国地方台",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live_local.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "04 港澳台",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live_gangtai.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "05 综合精选",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "06 备用线路",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live_backup.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "07 体育频道",
+      "url": "https://cdn.jsdelivr.net/gh/Hawaiine/Oasisic-IPTV@main/output/live_sports.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
     }
   ]
 }
